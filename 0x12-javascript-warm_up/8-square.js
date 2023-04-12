@@ -1,13 +1,11 @@
 #!/usr/bin/node
-function printSquare(size) {
-  let num = parseInt(size);
-  if (isNaN(num)) {
-    console.log("Missing size");
-    return;
-  }
-  for (let i = 0; i < num; i++) {
-    console.log("X".repeat(num));
+const size = Math.floor(Number(process.argv[2]));
+if (isNaN(size)) {
+  console.log('Missing size');
+} else {
+  for (let b = 0; b < size; b++) {
+    let row = '';
+    for (let a = 0; a < size; a++) row += 'X';
+    console.log(row);
   }
 }
-
-printSquare(process.argv[2]);
