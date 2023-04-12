@@ -1,19 +1,17 @@
 #!/usr/bin/node
-function myFunction() {
-  let myVar = 0;
+const myObject = {
+  type: 'object',
+  value: 12
+};
+console.log(myObject);
 
-  function setValue(newValue) {
-    myVar = newValue;
-    console.log("myVar is now set to:", myVar);
-  }
+myObject.incr = function () {
+  this.value++;
+};
 
-  function incr() {
-    myVar++;
-    console.log("myVar is now incremented to:", myVar);
-  }
-
-  setValue(5);
-  incr();
-}
-
-myFunction();
+myObject.incr();
+console.log(myObject);
+myObject.incr();
+console.log(myObject);
+myObject.incr();
+console.log(myObject);

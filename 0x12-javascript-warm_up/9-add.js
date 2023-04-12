@@ -1,5 +1,6 @@
-function add(a, b) {
-  return a + b;
+#!/usr/bin/node
+function add (c, d) {
+  return c + d;
 }
 
-console.log(add(10, 5)); // Output: 15
+console.log(add(Number(process.argv[2]), Number(process.argv[3])));
