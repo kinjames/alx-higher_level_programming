@@ -4,6 +4,6 @@
 Python
 <br>
 C<br>
-JavaScript
+<b>JavaScript<b>
 <br>
 <b>Shell<b>
