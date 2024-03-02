@@ -3,7 +3,8 @@
 ## Languages Used
 <b>Python<b>
 <br>
-C<br>
+<b>C<b>
+<br>
 <b>JavaScript<b>
 <br>
 <b>Shell<b>
