@@ -9,6 +9,6 @@
 <br>
 <b>Shell<b>
 <br>
-<b>css<b>
+<b>CSS<b>
 <br>
 <b>Tailwind CSS<b>
